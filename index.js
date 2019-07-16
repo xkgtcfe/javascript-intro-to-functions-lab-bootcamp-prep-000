@@ -23,3 +23,10 @@ function sayHiToGrandma(string) {
     return "I can\'t hear you!"
   }
 }
+
+function sayHiToGrandma(string) {
+  var uppercase = string.toUpperCase() 
+  if (string === uppercase) {
+    return "I can\'t hear you!"
+  }
+}
